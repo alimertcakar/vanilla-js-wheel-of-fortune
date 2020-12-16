@@ -32,6 +32,8 @@ function fortuneStep(step) {
 
 function cevirBeni(carkAdimi) {
   const wheel = document.querySelector('.wheel');
+  const textWheel = document.querySelector('.hediye-container');
+
   const startButton = document.querySelector('.button');
   let deg = 0;
 
@@ -40,6 +42,9 @@ function cevirBeni(carkAdimi) {
   wheel.style.transition = 'all 10s ease-out';
   wheel.style.transform = `rotate(${deg}deg)`;
   wheel.classList.add('blur');
+  textWheel.style.transition = 'all 10s ease-out';
+  textWheel.style.transform = `rotate(${deg}deg)`;
+  textWheel.classList.add('blur');
 
   //Çarkı eski yerine döndürme
   //const actualDeg = deg % 360;

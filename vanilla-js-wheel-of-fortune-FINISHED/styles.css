@@ -8,14 +8,24 @@
 .marker {
   position: absolute;
   width: 60px;
-  left: 172px;
-  top: -20px;
-  z-index: 2;
+  left: 170px;
+  top: -30px;
+  z-index: 4;
+}
+
+.markerbackground {
+  position: absolute;
+  width: 80px;
+  left: 160px;
+  top: -35px;
+  z-index: 1;
 }
 
 .wheel {
+  position: relative;
   width: 100%;
   height: 100%;
+  z-index: 2;
 }
 
 .button {
@@ -43,4 +53,101 @@
   100% {
     filter: blur(0px);
   }
+}
+
+.hediye-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.hediye-ic {
+}
+
+.hediye-1 {
+  position: absolute;
+  font-weight: 700;
+  width: 125px;
+  text-align: left;
+  color: white;
+  padding-left: 15px;
+  font-family: cursive;
+  transform: rotate(-22.5deg) translateX(100px);
+}
+.hediye-2 {
+  position: absolute;
+  font-weight: 700;
+  width: 125px;
+  text-align: left;
+  color: white;
+  padding-left: 15px;
+  font-family: cursive;
+  transform: rotate(-67.5deg) translateX(100px);
+}
+.hediye-3 {
+  position: absolute;
+  font-weight: 700;
+  width: 125px;
+  text-align: left;
+  color: white;
+  padding-left: 15px;
+  font-family: cursive;
+  transform: rotate(-112.5deg) translateX(100px);
+}
+.hediye-4 {
+  position: absolute;
+  font-weight: 700;
+  width: 125px;
+  text-align: left;
+  color: white;
+  padding-left: 15px;
+  font-family: cursive;
+  transform: rotate(-157.5deg) translateX(100px);
+}
+.hediye-5 {
+  position: absolute;
+  font-weight: 700;
+  width: 125px;
+  text-align: left;
+  color: white;
+  padding-left: 15px;
+  font-family: cursive;
+  transform: rotate(-202.5deg) translateX(100px);
+}
+.hediye-6 {
+  position: absolute;
+  font-weight: 700;
+  width: 125px;
+  text-align: left;
+  color: white;
+  padding-left: 15px;
+  font-family: cursive;
+  transform: rotate(-247.5deg) translateX(100px);
+}
+.hediye-7 {
+  position: absolute;
+  font-weight: 700;
+  width: 125px;
+  text-align: left;
+  color: white;
+  padding-left: 15px;
+  font-family: cursive;
+  transform: rotate(-292.5deg) translateX(100px);
+}
+
+.hediye-8 {
+  position: absolute;
+  font-weight: 700;
+  width: 125px;
+  text-align: left;
+  color: white;
+  padding-left: 15px;
+  font-family: cursive;
+  transform: rotate(-337.5deg) translateX(100px);
 }
